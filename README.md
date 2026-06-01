@@ -1,7 +1,6 @@
 # mysum-example
 
 ![Tests](https://github.com/diegoabt/mysum-example/actions/workflows/tests.yml/badge.svg)
-[![codecov](https://codecov.io/gh/diegoabt/mysum-example/graph/badge.svg)](https://codecov.io/gh/diegoabt/mysum-example)
 
 A minimal Python example demonstrating unit testing and CI.
 
@@ -15,11 +14,4 @@ A minimal Python example demonstrating unit testing and CI.
 
 ```bash
 python -m unittest test_mysum.py -v
-```
-
-## Run with coverage
-
-```bash
-python -m coverage run -m unittest test_mysum.py -v
-python -m coverage report
 ```
