@@ -10,4 +10,5 @@ def my_sum(numbers):
     total = 0
     for n in numbers:
         total += n
+    # This is what we return
     return total
