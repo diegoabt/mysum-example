@@ -1,4 +1,4 @@
-def my_sum(numbers):
+def my_sum(numbers :int) -> int | None:
     """Returns the sum of all elements in the iterable.
     Returns None if the argument is not a list, tuple, or set,
     or if any element is not an int or float.
