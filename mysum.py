@@ -12,3 +12,5 @@ def my_sum(numbers):
     for n in numbers:
         total += n
     return total
+
+    # Hello, this is just a small greeting
