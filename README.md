@@ -2,7 +2,7 @@
 
 ![Tests](https://github.com/diegoabt/mysum-example/actions/workflows/tests.yml/badge.svg)
 
-A minimal Python example demonstrating unit testing and CI.
+A minimal Python example demonstrating unit testing and CI!
 
 ## What's here
 
