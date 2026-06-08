@@ -13,4 +13,4 @@ def my_sum(numbers):
     # This is the core of the function
     for n in numbers:
         total += n
-    return total
+    return total    # total is of type number :)
