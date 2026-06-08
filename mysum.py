@@ -3,7 +3,7 @@ def my_sum(numbers):
     Returns None if the argument is not a list, tuple, or set,
     or if any element is not an int or float.
     """
-    # Check numbers type, return if type is not correct
+    # Check input type, return None if type is not correct
     if not isinstance(numbers, (list, tuple, set)):
         return None
     if not all(isinstance(n, (int, float)) for n in numbers):
