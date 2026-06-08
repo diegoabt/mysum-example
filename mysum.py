@@ -15,6 +15,7 @@ def my_sum(numbers :int) -> int | None:
     # This is the core of the function.
     for n in numbers:
         total += n
+    # This is what we return
     return total
 
 
