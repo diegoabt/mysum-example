@@ -3,6 +3,7 @@ def my_sum(numbers :int) -> int | None:
     Returns None if the argument is not a list, tuple, or set,
     or if any element is not an int or float.
     """
+    #yippi ai yey!
 
     #useless comment
     if not isinstance(numbers, (list, tuple, set)):
@@ -16,6 +17,7 @@ def my_sum(numbers :int) -> int | None:
     for n in numbers:
         total += n
     return total
+# uh push it
 
 
 
