@@ -9,6 +9,7 @@ def my_sum(numbers):
         return None
     total = 0
     # This is the core of the function
+    # this comment by tomreit
     for n in numbers:
         total += n
     return total
