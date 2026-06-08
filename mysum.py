@@ -7,10 +7,12 @@ def my_sum(numbers):
     #useless comment
     if not isinstance(numbers, (list, tuple, set)):
         return None
+
     if not all(isinstance(n, (int, float)) for n in numbers):
         return None
+    
     total = 0
-    # This is the core of the function
+    # This is the core of the function.
     for n in numbers:
         total += n
     return total
