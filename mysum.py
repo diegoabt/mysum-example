@@ -1,16 +1,24 @@
-def my_sum(numbers):
+def my_sum(numbers :int) -> int | None:
     """Returns the sum of all elements in the iterable.
     Returns None if the argument is not a list, tuple, or set,
     or if any element is not an int or float.
     """
     #yippi ai yey!
+
+    #useless comment
     if not isinstance(numbers, (list, tuple, set)):
         return None
+
     if not all(isinstance(n, (int, float)) for n in numbers):
         return None
+    
     total = 0
-    # This is the core of the function
+    # This is the core of the function.
     for n in numbers:
         total += n
     return total
 # uh push it
+
+
+
+# broski :)
