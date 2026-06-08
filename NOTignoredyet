@@ -1,0 +1,3 @@
+# For information that should NOT be uploaded we need a gitignore. For that this file should be renamed ".gitignore"
+
+# It can then hold info about files that are not supposed to be uploaded "ever"

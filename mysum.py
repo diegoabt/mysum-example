@@ -17,8 +17,20 @@ def my_sum(numbers :int) -> int | None:
     for n in numbers:
         total += n
     return total
+
+
+
+
+
+
+
+
+# Hello, this is just a small greeting
+# and because I did something on the main branch before this might be up already XD
+
 # uh push it
 
 
 
 # broski :)
+
