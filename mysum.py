@@ -7,7 +7,7 @@ def my_sum(numbers):
         return None
     if not all(isinstance(n, (int, float)) for n in numbers):
         return None
-    total = 1
+    total = 111111111
     # This is the core of the function
     for n in numbers:
         total += n
